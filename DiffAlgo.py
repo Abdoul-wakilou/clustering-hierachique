@@ -1,0 +1,5 @@
+import streamlit as st
+st.title("Différences avec les autres algorithmes de clustering :")
+st.write("**-Différece entre clustering hiérachique et  K-Means**- : L'algorithme de clustering hiérarchique ne nécessite pas de spécifier le nombre de clusters à l'avance, contrairement à K-Means. De plus, il produit une hiérarchie de clusters plutôt qu'une partition fixe des données.")
+st.write("**- Différece entre clustering hiérachique et DBSCAN** : Contrairement à DBSCAN, qui identifie des clusters de formes arbitraires en fonction de la densité des points, l'algorithme de clustering hiérarchique regroupe les points en clusters hiérarchiques basés sur leur similarité.")
+st.write("**- Différece entre clustering hiérachique et Méthodes de partitionnement spectral** : Ces méthodes tentent de partitionner les données en sous-ensembles en fonction des relations entre les points dans un espace de dimension réduit. L'algorithme de clustering hiérarchique, en revanche, crée une hiérarchie de clusters en fusionnant ou en divisant récursivement les clusters existants.")
